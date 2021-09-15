@@ -17,7 +17,7 @@ const allUsersHTML = (users) => {
 };
 
 const enterDisplayName = () => {
-  if (DisplayNameInput.value.length > 5) {
+  if (DisplayNameInput.value.length > 3) {
     displayName = DisplayNameInput.value;
     LoginContainer.classList.toggle("d-none");
     AppContainer.classList.toggle("d-none");
